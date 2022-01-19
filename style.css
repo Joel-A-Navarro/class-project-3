@@ -106,3 +106,7 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: red;
 }
+
+h5 {
+  font-size: large;
+}
