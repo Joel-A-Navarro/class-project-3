@@ -1,3 +1,26 @@
+// var sound = new Howl({
+//   src: ['sounds/cough.wav']
+//   });
+  
+//   sound.play();
+  
+  
+// var sound2 = new Howl({
+//     src: ['sounds/sneeze.wav']
+//   });
+  
+//   sound2.play(); 
+
+var sound3 = new Howl({
+  src: ['sounds/MATeardrop.mp3'],
+  autoplay: true,
+  loop: true,
+  volume: 0.50
+  });
+  
+  sound3.play();
+
+
 
 let data = d3.csv("final_data.csv").then((rawData) => {
     loadStates();
