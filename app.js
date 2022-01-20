@@ -15,7 +15,7 @@ var sound3 = new Howl({
   src: ['sounds/MATeardrop.mp3'],
   autoplay: true,
   loop: true,
-  volume: 0.50
+  volume: 0.15
   });
   
   sound3.play();
